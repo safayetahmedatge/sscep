@@ -81,6 +81,7 @@ To compile run:
 To generate the configure script when checking out from github source:
 `$ autoheader`
 `$ libtoolize`
+`$ aclocal`
 `$ automake -a -c -f`
 `$ autoreconf`
 
